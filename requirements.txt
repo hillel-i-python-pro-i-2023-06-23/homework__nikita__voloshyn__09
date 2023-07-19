@@ -1,0 +1,23 @@
+# For name generation.
+faker==18.11.2
+requests==2.31.0
+pandas==2.0.3
+
+# [code_style]-[BEGIN]
+# Pre-commit hook.
+pre-commit==3.3.3
+# Upgrade syntax.
+pyupgrade==3.7.0
+# Formatter. Apply codestyle.
+black==23.3.0
+# Check codestyle.
+flake8==6.0.0
+# Removes unused imports and unused variables.
+autoflake==2.2.0
+# [code_style]-[END]
+Flask~=2.3.2
+pip~=23.1.2
+Jinja2~=3.1.2
+setuptools~=65.5.0
+packaging~=23.1
+MyApplication~=0.1.0
