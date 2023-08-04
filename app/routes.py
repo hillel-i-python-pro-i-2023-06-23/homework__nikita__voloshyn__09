@@ -1,6 +1,7 @@
 import sqlite3
-from flask import jsonify, request
-from app import app
+from flask import jsonify, request, Flask
+
+app = Flask(__name__)
 
 DATABASE = "phones.db"
 

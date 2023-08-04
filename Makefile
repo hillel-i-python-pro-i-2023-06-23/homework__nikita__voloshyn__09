@@ -13,7 +13,7 @@ d-homework-i-purge:
 .PHONY: init-configs
 # Configuration input_files initialization
 init-configs:
-#	@cp docker-compose.override.dev.yml docker-compose.override.yml
+	@cp docker-compose.override.dev.yml docker-compose.override.yml
 
 
 .PHONY: d-run
