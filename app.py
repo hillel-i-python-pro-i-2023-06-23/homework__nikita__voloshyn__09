@@ -3,7 +3,7 @@ from flask import jsonify, request, Flask
 
 app = Flask(__name__)
 
-DATABASE = "app/phones.db"
+DATABASE = "db/phones.db"
 
 
 # Create connection to the database

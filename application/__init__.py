@@ -1,5 +1,5 @@
 from flask import Flask
-from run import home, create_phone, get_all_phones, get_phone, update_phone, delete_phone
+from app import home, create_phone, get_all_phones, get_phone, update_phone, delete_phone
 app = Flask(__name__)
 
 app.config.from_pyfile("config.py")
